@@ -1,7 +1,7 @@
 Front End Permissions
 =====================
 
-A Permission Key Category name Front End Permissions for site building
+A Permission Key Category named Front End for site building
 
 ### This Package Does Nothing
 This package essentially installs a Permission Key Category named "Front End Permissions" with a handle front\_end.
