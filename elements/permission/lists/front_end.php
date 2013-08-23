@@ -24,7 +24,7 @@ ccm_permissionLaunchDialog = function(link) {
 			title = $link.attr('dialog-title'),
 	    pkID  = $link.attr('data-pkID'),
 	    paID  = $link.attr('data-paID'),
-	    href  = '<?= REL_DIR_FILES_TOOLS_REQUIRED ?>/permissions/dialogs/front_end?pkID=' + pkID + '&paID=' + paID;
+	    href  = '<?= Loader::helper('concrete/urls')->getToolsURL('/permissions/dialogs/front_end') ?>?pkID=' + pkID + '&paID=' + paID;
 
 	jQuery.fn.dialog.open({
 		title  : title,
