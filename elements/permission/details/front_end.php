@@ -3,5 +3,5 @@
 <?php $pk = PermissionKey::getByID($_REQUEST['pkID']) ?>
 <?php Loader::element('permission/detail', array('permissionKey' => $pk)) ?>
 <script type="text/javascript">
-	var ccm_permissionDialogURL = '<?= Loader::helper('concrete/urls')->getToolsURL('/permissions/dialogs/front_end') ?>';
+	var ccm_permissionDialogURL = '<?= Loader::helper('concrete/urls')->getToolsURL('permissions/dialogs/front_end') ?>';
 </script>
