@@ -12,7 +12,7 @@
 			           href         = "javascript:void(0)"><?= tc('PermissionKeyName', $pk->getPermissionKeyName()) ?></a></strong>
 		</td>
 		<td id    = "ccm-permission-grid-cell-<?= $pk->getPermissionKeyID() ?>"
-		    class = "ccm-permission-grid-cell"><?= Loader::element('permission/labels', array('pk' => $pk), Package::getByHandle('front_end_permissions')) ?>
+		    class = "ccm-permission-grid-cell"><?= Loader::element('permission/labels', array('pk' => $pk)) ?>
 		</td>
 	</tr>
 <?php } /* foreach */ ?>

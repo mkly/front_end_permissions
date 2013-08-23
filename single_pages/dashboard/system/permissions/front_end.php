@@ -6,7 +6,7 @@
 	<?= $vt->output('save_front_end_permissions') ?>
 
 	<div class="ccm-pane-body">
-		<?php Loader::element('permission/lists/front_end', array(), Package::getByHandle('front_end_permissions')) ?>
+		<?php Loader::element('permission/lists/front_end', array(), 'front_end_permissions') ?>
 	</div><!-- .ccm-pane-body -->
 
 	<div class="ccm-pane-footer">
